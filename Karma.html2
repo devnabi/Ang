@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Karma</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h3>숙제리스트</h3>
+
+    <ol>
+      <li><h4>숙제</h4></li>
+      <ul>
+        <li> <input type="checkbox" value="jj"> <strong>강조체</strong></input></li>
+        <li> <input type="checkbox" value="jj"> <i>기울임체</i></input></li>
+        <li> <input type="checkbox" value="jj"> <del>취소선</del></input></li>
+        <li> <input type="checkbox" value="jj"> <u>밑줄</u></input></li>
+      </ul>
+
+      <li><h4>숙제</h4></li>
+      <ul>
+        <li> <input type="checkbox" value="jj"> unsplash에서 이미지 가져와서 삽입하기
+          (다운받아서 여기 파일에 추가하는 방법,주소만 복사하는 방법 암거나)</input></li>
+          <li> <input type="checkbox" value="jj"> 이미지 크기 바꾸기</input></li>
+        <li> <input type="checkbox" value="jj"> 코드로 이모지 추가하기 😄</input></li>
+        <li> <input type="checkbox" value="jj"> 중첩 리스트 만들어보기</input></li>
+        <li> <input type="checkbox" value="jj"> 개발자 도구 켜서 이모지 제목에 안들어가는 원인 파악해보기</input></li>
+        <li> <input type="checkbox" value="jj"> 이 숙제 리스트를 체크박스 리스트로 만들기 (어려움)</input></li>
+      </ul>
+    </ol>
+
+    <h3>곡정보&#127776;</h3>
+
+    <ul>
+      <li>작곡,작사-ampstyle</li>
+      <li>보컬-초희</li>
+      <li>애니메이션-람다람</li>
+    </ul>
+    <img src="unsplash-space.jpg" width="200" />
+
+    <h1>Karma 염라</h1>
+
+    <p>
+      바라봤을 뿐인 얼굴<br />
+      떠오르지 않나요?<br />
+      네. 꺼림칙한 건 나인데<br />
+    </p>
+
+    신경 쓰이잖아요?<br />
+    희미해져 가는 게<br />
+    사라져 없어져 버린다는 게<br />
+  </body>
+</html>
