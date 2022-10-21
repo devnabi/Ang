@@ -1,0 +1,74 @@
+* {
+    background-color: ghostwhite;
+}
+
+h1 {
+    color: magenta;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    letter-spacing: 60;
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+h2 {
+    color: magenta;
+    font-family: fantasy;
+}
+
+p {
+    color: black;
+    line-height: 2;
+}
+
+
+button {
+    color: hotpink;
+    background-color: black;
+    font-size: 15px;
+    border-width: none;
+    border-style: solid;
+    border-color: hotpink;
+}
+
+span {
+    color: hotpink;
+    background-color: black;
+
+}
+
+a {
+    color: skyblue;
+    background-color: black;
+    font-style: italic;
+
+}
+
+.tag,
+table {
+    color: #1c33ab;
+    /*select class*/
+    
+}
+
+img {
+    width: 500px;
+}
+
+
+input,
+textarea {
+    border-color: skyblue;
+    border-width: 3px;
+    font-size: 20px;
+
+
+}
+
+
+label {
+    font-size: 20px;
+
+}
