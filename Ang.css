@@ -34,7 +34,7 @@ button {
 }
 
 
-span {
+.chiappa {
     color: skyblue;
     background-color: black;
     font-style: italic;
@@ -42,6 +42,7 @@ span {
 
 .quinn {
     color: hotpink;
+    background-color: black;
 }
 
 a {
