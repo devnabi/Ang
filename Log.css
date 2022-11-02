@@ -9,7 +9,7 @@ body {
   }
 
   input {
-    border-width: 3px;
+    border-width: 1px;
     border-color: black;
     border-style: solid;
     padding: 20px;
@@ -18,7 +18,7 @@ body {
   }
 
   .j {
-    border-width: solid;
+    border: 1px solid black;
     background: -webkit-linear-gradient(45deg, black, white);
     margin-left: 52px;
     width: 250px;
@@ -26,6 +26,16 @@ body {
     font-size: 50px;
     padding-top: 3px;
     padding-left: 20px;
+  }
+
+  .j:hover {
+    background: -webkit-linear-gradient(45deg, white, black);
+    border-color: magenta;
+    box-shadow: 0 0.5em 0.5rem -0.4em magenta;
+    transform: translateY(-0.25em);
+    transition: 0.3s;
+    cursor: pointer;
+    
   }
 
   .container {
