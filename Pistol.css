@@ -60,6 +60,7 @@ button {
     border-width: none;
     border-style: solid;
     border-color: hotpink;
+    cursor: pointer;
 }
 
 
