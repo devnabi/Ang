@@ -1,47 +1,56 @@
 body {
-    background: linear-gradient(
-      50deg,
+  background: linear-gradient(50deg,
       yellowgreen,
       skyblue,
       violet,
-      rgb(54, 54, 165)
-    );
-  }
+      rgb(54, 54, 165));
+}
 
-  input,button {
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    padding: 20px;
-    margin: 45px;
-    font-size: 20px;
-  }
+input,
+button {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+  margin: 45px;
+  font-size: 20px;
+}
 
-  button {
-    border: 1px solid black;
-    background: -webkit-linear-gradient(45deg, black, white);
-    margin-left: 52px;
-    width: 250px;
-    height: 70px;
-    font-size: 50px;
-    padding-top: 3px;
-    padding-left: 20px;
-  }
+button {
+  border: 1px solid black;
+  background: -webkit-linear-gradient(45deg, black, white);
+  margin-left: 52px;
+  width: 250px;
+  height: 70px;
+  font-size: 50px;
+  padding-top: 3px;
+  padding-left: 20px;
+}
 
-  button:hover {
-    background: -webkit-linear-gradient(45deg, white, black);
-    border-color: magenta;
-    box-shadow: 0 0.5em 0.5rem -0.4em magenta;
-    transform: translateY(-0.25em);
-    transition: 0.3s;
-    cursor: pointer;
-    
-  }
+button:hover {
+  background: -webkit-linear-gradient(45deg, white, black);
+  border-color: white;
+  box-shadow: 0 0.5em 0.5rem -0.4em white;
+  transform: translateY(-0.25em);
+  transition: 0.7s;
+  cursor: pointer;
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+section {
+  /*background:center/120% no-repeat url(https://images.unsplash.com/photo-1548284706-24b96b23d6d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG1vb258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60) #00000050;
+  배경에 이미지 삽입, position, 다중배경 적용 연습*/
+  background-color: #00000050;
+  width: 40%;
+  height: 800px;
+  margin: 0 auto;
+  border-radius: 15%;
+}
