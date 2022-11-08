@@ -1,0 +1,36 @@
+section {
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+}
+
+div {
+    width: 50%;
+    height: 70%;
+    background-color: pink;
+}
+
+/* %적용하는 연습 */
+
+
+article {
+    font-size: 30px;
+
+}
+
+button {
+    font-size: 1em;
+    border-radius: 1em;
+    border-color: black;
+    border-style: dotted;
+    color: white;
+    background-color: violet;
+
+}
+
+ul {
+    font-size: 2rem;
+
+}
+
+/*부모요소:article: em,rem적용하는 연습*/
